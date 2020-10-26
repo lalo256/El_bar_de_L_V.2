@@ -1,0 +1,13 @@
+searchForm : WOForm {
+}
+
+searchText : WOTextField {
+  value = searchText;
+  size = 12;
+  
+}
+
+searchButton : WOSubmitButton {
+	action = searchButton;
+	value = "Buscar";
+}
